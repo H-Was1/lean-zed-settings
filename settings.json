@@ -31,6 +31,31 @@
 			},
 			"enable_lsp_tasks": true
 		},
+		"biome": {
+			"settings": {
+				"inline_config": {
+					"files": {
+						"includes": [
+							"**/*.js",
+							"**/*.ts",
+							"**/*.jsx",
+							"**/*.tsx",
+							"**/*.json",
+							"**/*.jsonc",
+							"!**/*.css"
+						]
+					},
+					"css": {
+						"formatter": {
+							"enabled": false
+						},
+						"linter": {
+							"enabled": false
+						}
+					}
+				}
+			}
+		},
 		"vtsls": {
 			"enabled": false
 		},
