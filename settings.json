@@ -1,0 +1,168 @@
+{
+	"format_on_save": "on",
+	"diff_view_style": "split",
+	"auto_update": false,
+	"cli_default_open_behavior": "existing_window",
+	"outline_panel": {
+		"dock": "right"
+	},
+	"collaboration_panel": {
+		"dock": "right"
+	},
+	"git_panel": {
+		"dock": "left",
+		"tree_view": true
+	},
+	"lsp": {
+		"typescript-ls": {
+			"settings": {
+				"typescript": {
+					"format": { "enable": false },
+					"updateImportsOnFileMove": {
+						"enabled": "always"
+					}
+				},
+				"javascript": {
+					"format": { "enable": false },
+					"updateImportsOnFileMove": {
+						"enabled": "always"
+					}
+				}
+			},
+			"enable_lsp_tasks": true
+		}
+	},
+	"icon_theme": "Colored Zed Icons Theme Dark",
+	"soft_wrap": "bounded",
+	"preferred_line_length": 130,
+	"helix_mode": false,
+	"edit_predictions": {
+		"open_ai_compatible_api": {
+			"api_url": "",
+			"model": "gpt-5-mini"
+		},
+		"ollama": {
+			"api_url": "http://localhost:11434"
+		},
+		"provider": "zed",
+		"sweep": {
+			"privacy_mode": true
+		},
+		"mode": "eager"
+	},
+	"agent": {
+		"inline_assistant_model": {
+			"provider": "openai",
+			"model": "gpt-5-mini"
+		},
+		"default_model": {
+			"effort": "minimal",
+			"enable_thinking": true,
+			"provider": "google",
+			"model": "gemini-3.5-flash-lite"
+		},
+		"dock": "left",
+		"model_parameters": []
+	},
+	"project_panel": {
+		"dock": "right"
+	},
+	"telemetry": {
+		"diagnostics": false,
+		"metrics": false
+	},
+	"ui_font_size": 16,
+	"buffer_font_size": 15,
+	"theme": "Zed Legacy: Summercamp",
+	"terminal": {
+		"shell": {
+			"program": "C:/Program Files/Git/bin/bash.exe"
+		}
+	},
+	"autosave": {
+		"after_delay": {
+			"milliseconds": 300
+		}
+	},
+	"use_on_type_format": true,
+	"jsx_tag_auto_close": {
+		"enabled": true
+	},
+	"auto_indent": "syntax_aware",
+	"indent_guides": {
+		"coloring": "indent_aware",
+		"active_line_width": 5
+	},
+	"auto_indent_on_paste": true,
+	"show_completions_on_input": true,
+	"windows": {
+		"autosave": {
+			"after_delay": {
+				"milliseconds": 300
+			}
+		},
+		"languages": {
+			"JavaScript": {
+				"language_servers": [
+					"typescript-ls",
+					"!vtsls",
+					"!typescript-language-server",
+					"!eslint",
+					"..."
+				],
+				"formatter": {
+					"language_server": {
+						"name": "biome"
+					}
+				}
+			},
+			"TypeScript": {
+				"language_servers": [
+					"typescript-ls",
+					"!vtsls",
+					"!typescript-language-server",
+					"!eslint",
+					"..."
+				],
+				"formatter": {
+					"language_server": {
+						"name": "biome"
+					}
+				}
+			},
+			"JSON": {
+				"language_servers": [
+					"typescript-ls",
+					"!vtsls",
+					"!typescript-language-server",
+					"!json-language-server",
+					"!eslint",
+					"..."
+				],
+				"formatter": {
+					"language_server": {
+						"name": "biome"
+					}
+				}
+			},
+			"JSONC": {
+				"language_servers": [
+					"typescript-ls",
+					"!vtsls",
+					"!json-language-server",
+					"!typescript-language-server",
+					"!eslint",
+					"..."
+				],
+				"formatter": {
+					"language_server": {
+						"name": "biome"
+					}
+				}
+			},
+			"Rust": {
+				"formatter": "auto"
+			}
+		}
+	}
+}
