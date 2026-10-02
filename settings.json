@@ -53,30 +53,33 @@
 	"languages": {
 		"JavaScript": {
 			"language_servers": [
+				"biome",
 				"typescript-ls",
 				"emmet-language-server",
 				"!tailwindcss-language-server",
-				"biome",
+				"!typescript-language-server",
 				"!vtsls",
 				"!eslint"
 			]
 		},
 		"TypeScript": {
 			"language_servers": [
-				"typescript-ls",
-				"!tailwindcss-language-server",
-				"emmet-language-server",
 				"biome",
+				"typescript-ls",
+				"emmet-language-server",
+				"!tailwindcss-language-server",
+				"!typescript-language-server",
 				"!vtsls",
 				"!eslint"
 			]
 		},
 		"TSX": {
 			"language_servers": [
+				"biome",
 				"typescript-ls",
 				"emmet-language-server",
 				"tailwindcss-language-server",
-				"biome",
+				"!typescript-language-server",
 				"!vtsls",
 				"!eslint"
 			]
@@ -86,6 +89,7 @@
 				"biome",
 				"emmet-language-server",
 				"!vscode-json-languageservice",
+				"!typescript-language-server",
 				"!json-language-server"
 			]
 		},
@@ -94,6 +98,7 @@
 				"biome",
 				"emmet-language-server",
 				"!vscode-json-languageservice",
+				"!typescript-language-server",
 				"!json-language-server"
 			]
 		}
