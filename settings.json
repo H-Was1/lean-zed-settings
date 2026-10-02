@@ -30,6 +30,72 @@
 				}
 			},
 			"enable_lsp_tasks": true
+		},
+		"vtsls": {
+			"enabled": false
+		},
+		"eslint": {
+			"enabled": false
+		},
+		"vscode-json-languageservice": {
+			"enabled": false
+		},
+		"vscode-css-language-server": {
+			"enabled": false
+		},
+		"typescript-language-server": {
+			"enabled": false
+		},
+		"json-language-server": {
+			"enabled": false
+		}
+	},
+	"languages": {
+		"JavaScript": {
+			"language_servers": [
+				"typescript-ls",
+				"emmet-language-server",
+				"!tailwindcss-language-server",
+				"biome",
+				"!vtsls",
+				"!eslint"
+			]
+		},
+		"TypeScript": {
+			"language_servers": [
+				"typescript-ls",
+				"!tailwindcss-language-server",
+				"emmet-language-server",
+				"biome",
+				"!vtsls",
+				"!eslint"
+			]
+		},
+		"TSX": {
+			"language_servers": [
+				"typescript-ls",
+				"emmet-language-server",
+				"tailwindcss-language-server",
+				"biome",
+				"!vtsls",
+				"!eslint"
+			]
+		},
+		"JSON": {
+			"language_servers": [
+				"biome",
+				"emmet-language-server",
+				"!vscode-json-languageservice",
+				"!json-language-server"
+			]
+		},
+		"JSONC": {
+			"language_servers": [
+				"biome",
+				"emmet-language-server",
+				"!vscode-json-languageservice",
+				"!json-language-server"
+			]
 		}
 	},
 	"icon_theme": "Colored Zed Icons Theme Dark",
@@ -103,13 +169,6 @@
 		},
 		"languages": {
 			"JavaScript": {
-				"language_servers": [
-					"typescript-ls",
-					"!vtsls",
-					"!typescript-language-server",
-					"!eslint",
-					"..."
-				],
 				"formatter": {
 					"language_server": {
 						"name": "biome"
@@ -117,13 +176,6 @@
 				}
 			},
 			"TypeScript": {
-				"language_servers": [
-					"typescript-ls",
-					"!vtsls",
-					"!typescript-language-server",
-					"!eslint",
-					"..."
-				],
 				"formatter": {
 					"language_server": {
 						"name": "biome"
@@ -131,14 +183,6 @@
 				}
 			},
 			"JSON": {
-				"language_servers": [
-					"typescript-ls",
-					"!vtsls",
-					"!typescript-language-server",
-					"!json-language-server",
-					"!eslint",
-					"..."
-				],
 				"formatter": {
 					"language_server": {
 						"name": "biome"
@@ -146,14 +190,6 @@
 				}
 			},
 			"JSONC": {
-				"language_servers": [
-					"typescript-ls",
-					"!vtsls",
-					"!json-language-server",
-					"!typescript-language-server",
-					"!eslint",
-					"..."
-				],
 				"formatter": {
 					"language_server": {
 						"name": "biome"
